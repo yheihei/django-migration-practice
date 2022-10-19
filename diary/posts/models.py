@@ -5,5 +5,5 @@ class Post(models.Model):
     '''
     投稿モデル
     '''
-    title = models.CharField()
+    title = models.CharField(max_length=255)
     body = models.TextField()
